@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#071014">
+  <meta name="description" content="COLDBOX — монтаж, обслуживание и ремонт кондиционеров в Москве и области.">
+  <title>COLDBOX — кондиционеры под ключ</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%23071014'/%3E%3Crect x='12' y='12' width='40' height='40' fill='%23FF2E88'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&family=Unbounded:wght@700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./src/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Перейти к содержанию</a>
+
+  <header class="site-header container">
+    <a class="logo" href="#top" aria-label="COLDBOX — наверх">
+      <span class="logo-mark" aria-hidden="true"></span>
+      <span>COLD<span class="logo-slash">/</span><span class="logo-accent">BOX</span></span>
+    </a>
+    <nav class="desktop-nav" aria-label="Основная навигация">
+      <a href="#services">УСЛУГИ</a>
+      <a href="#process">ПРОЦЕСС</a>
+      <a href="#works">РАБОТЫ</a>
+      <a href="#contacts">КОНТАКТЫ</a>
+    </nav>
+    <button class="button button--accent header-request" type="button" data-modal-open>ЗАЯВКА</button>
+    <button class="menu-toggle" type="button" aria-label="Открыть меню" aria-controls="mobile-menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <div class="mobile-menu" id="mobile-menu" hidden>
+    <nav aria-label="Мобильная навигация">
+      <a href="#services"><span>01</span> УСЛУГИ</a>
+      <a href="#process"><span>02</span> ПРОЦЕСС</a>
+      <a href="#works"><span>03</span> РАБОТЫ</a>
+      <a href="#contacts"><span>04</span> КОНТАКТЫ</a>
+    </nav>
+    <button class="button button--accent" type="button" data-modal-open>ОСТАВИТЬ ЗАЯВКУ</button>
+    <p class="mono">МОСКВА И ОБЛАСТЬ / С 2016 ГОДА</p>
+  </div>
+
+  <main id="main">
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <div class="hero-shade" aria-hidden="true"></div>
+      <div class="container hero-inner">
+        <p class="kicker hero-kicker">МОСКВА И ОБЛАСТЬ&nbsp; / &nbsp;РАБОТАЕМ С 2016 ГОДА</p>
+        <h1 class="hero-title" id="hero-title">
+          <span class="title-desktop">КОНДИЦИОНЕРЫ<br>ПОД КЛЮЧ</span>
+          <span class="title-mobile">КОНДИЦИ<br>ОНЕРЫ<br>ПОД КЛЮЧ</span>
+        </h1>
+        <p class="hero-description">Монтаж, обслуживание и ремонт сплит-систем.<br>Замер — бесплатно, выезд в день обращения.</p>
+        <button class="button button--accent hero-request" type="button" data-modal-open>ЗАЯВКА</button>
+      </div>
+    </section>
+
+    <section class="about section" id="about" aria-labelledby="about-title">
+      <div class="container">
+        <p class="kicker">{01}&nbsp; — &nbsp;КТО МЫ</p>
+        <div class="section-intro about-intro">
+          <h2 id="about-title">ДЕЛАЕМ ХОЛОД<br><span class="accent-text">ЧАСТЬЮ ДОМА</span></h2>
+          <p class="section-description">Мы — небольшая бригада монтажников, без менеджеров-посредников. На замер и монтаж приезжают те же люди, что будут работать у вас дома.</p>
+        </div>
+        <figure class="framed-image about-image">
+          <img src="./assets/work_4.jpg" alt="Фасад жилого дома с установленными кондиционерами" width="1300" height="879">
+          <figcaption class="image-label">НАШИ ОБЪЕКТЫ&nbsp; — &nbsp;ФАСАДНЫЙ МОНТАЖ</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="services section" id="services" aria-labelledby="services-title">
+      <div class="container">
+        <p class="kicker">{02}&nbsp; — &nbsp;УСЛУГИ И ЦЕНЫ</p>
+        <div class="section-intro services-intro">
+          <h2 id="services-title">ЧТО МЫ ДЕЛАЕМ</h2>
+          <p class="section-description">Точная смета — после бесплатного замера. Цена фиксируется в договоре.</p>
+        </div>
+        <div class="service-list">
+          <article class="service-item">
+            <span class="service-number">01</span>
+            <div class="service-copy">
+              <h3>МОНТАЖ СПЛИТ-СИСТЕМ</h3>
+              <p>Трасса до 5 м, дренаж, вакуумирование и пусконаладка включены в стоимость.</p>
+            </div>
+            <p class="service-price">от 9 900 ₽</p>
+            <button class="arrow-button" type="button" data-service="Монтаж сплит-систем" aria-label="Оставить заявку на монтаж сплит-систем">→</button>
+          </article>
+          <article class="service-item">
+            <span class="service-number">02</span>
+            <div class="service-copy">
+              <h3>ОБСЛУЖИВАНИЕ</h3>
+              <p>Чистка, дезинфекция и заправка фреоном. Диагностика — в подарок.</p>
+            </div>
+            <p class="service-price">от 2 500 ₽</p>
+            <button class="arrow-button" type="button" data-service="Обслуживание" aria-label="Оставить заявку на обслуживание">→</button>
+          </article>
+          <article class="service-item">
+            <span class="service-number">03</span>
+            <div class="service-copy">
+              <h3>ДЕМОНТАЖ И РЕМОНТ</h3>
+              <p>Аккуратный демонтаж с сохранением фреона, ремонт любых брендов.</p>
+            </div>
+            <p class="service-price">от 1 900 ₽</p>
+            <button class="arrow-button" type="button" data-service="Демонтаж и ремонт" aria-label="Оставить заявку на демонтаж и ремонт">→</button>
+          </article>
+          <article class="service-item service-item--extra">
+            <span class="service-number">04</span>
+            <div class="service-copy">
+              <h3>МУЛЬТИСПЛИТ-СИСТЕМЫ</h3>
+              <p>Несколько комнат на один внешний блок: проект, расчёт, монтаж под ключ.</p>
+            </div>
+            <p class="service-price">от 24 900 ₽</p>
+            <button class="arrow-button" type="button" data-service="Мультисплит-системы" aria-label="Оставить заявку на мультисплит-системы">→</button>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="lava" id="process" aria-labelledby="lava-title">
+      <div class="lava-static" aria-hidden="true"></div>
+      <div class="lava-layer lava-layer--one" aria-hidden="true"></div>
+      <div class="lava-layer lava-layer--two" aria-hidden="true"></div>
+      <div class="lava-vignette" aria-hidden="true"></div>
+      <div class="container lava-inner">
+        <div class="lava-copy">
+          <p class="kicker">{03}&nbsp; — &nbsp;ТЕМПЕРАТУРА ПОД КОНТРОЛЕМ</p>
+          <h2 id="lava-title">КЛИМАТ ПОД<br><span>КОНТРОЛЕМ</span></h2>
+          <p>Вакуумирование трассы, контроль давления и замер температуры на выходе: проверяем, что система выходит на заданный режим, и только потом сдаём объект.</p>
+        </div>
+        <div class="thermal-scale" aria-hidden="true">
+          <span>+40°</span><span>+20°</span><span>0°</span><span>−20°</span>
+          <i></i>
+        </div>
+        <div class="thermal-target" aria-hidden="true"><span>ID: SPLIT-07</span></div>
+        <div class="thermal-readout">
+          <p>КОРПУС:&nbsp; −18.4°C</p>
+          <p>ΔT 12.6°&nbsp; — &nbsp;РЕЖИМ ДОСТИГНУТ</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="gallery section" id="works" aria-labelledby="gallery-title">
+      <div class="container">
+        <p class="kicker">{04}&nbsp; — &nbsp;ГАЛЕРЕЯ РАБОТ</p>
+        <div class="gallery-heading">
+          <h2 id="gallery-title">НАШИ ОБЪЕКТЫ</h2>
+          <button class="text-button gallery-all" type="button" data-gallery-index="0">ВСЕ РАБОТЫ&nbsp; →</button>
+        </div>
+        <div class="gallery-grid">
+          <button class="gallery-item gallery-item--large framed-image" type="button" data-gallery-index="0" aria-label="Увеличить фото: ЖК Северный">
+            <img src="./assets/work_1.jpg" alt="Фасад ЖК Северный с кондиционерами" width="800" height="600">
+            <span class="image-label">ЖК «СЕВЕРНЫЙ»&nbsp; — &nbsp;42 УСТАНОВКИ</span>
+          </button>
+          <button class="gallery-item" type="button" data-gallery-index="1" aria-label="Увеличить фото: частный дом">
+            <img src="./assets/work_2.jpg" alt="Фасад частного дома с внешними блоками" width="700" height="700">
+            <span class="image-label">ЧАСТНЫЙ ДОМ</span>
+          </button>
+          <button class="gallery-item" type="button" data-gallery-index="2" aria-label="Увеличить фото: офис">
+            <img src="./assets/work_3.jpg" alt="Офисное здание с двенадцатью сплит-системами" width="850" height="579">
+            <span class="image-label">ОФИС&nbsp; — &nbsp;12 СПЛИТ-СИСТЕМ</span>
+          </button>
+          <button class="gallery-item gallery-item--wide framed-image" type="button" data-gallery-index="3" aria-label="Увеличить фото: жилой дом">
+            <img src="./assets/work_4.jpg" alt="Фасадный монтаж кондиционеров в жилом доме" width="1300" height="879">
+            <span class="image-label">ЖИЛОЙ ДОМ&nbsp; — &nbsp;ФАСАДНЫЙ МОНТАЖ, 2024</span>
+          </button>
+        </div>
+        <button class="text-button gallery-all gallery-all--mobile" type="button" data-gallery-index="0">ВСЕ РАБОТЫ&nbsp; →</button>
+      </div>
+    </section>
+
+    <section class="contacts" id="contacts" aria-labelledby="contacts-title">
+      <div class="container contacts-inner">
+        <p class="kicker">{05}&nbsp; — &nbsp;КОНТАКТЫ</p>
+        <div class="contacts-topline">
+          <h2 id="contacts-title">ПОРА ОХЛАДИТЬСЯ</h2>
+          <a class="contact-phone" href="tel:+74951204567">+7 495 120-45-67</a>
+        </div>
+        <p class="contacts-description">Оставьте заявку — перезвоним за 15 минут и договоримся о бесплатном замере.</p>
+        <div class="contacts-bottom">
+          <button class="button button--dark" type="button" data-modal-open>ОСТАВИТЬ ЗАЯВКУ</button>
+          <p class="contacts-schedule">ПН–ВС&nbsp; 9:00–21:00&nbsp; / &nbsp;ВЫЕЗД ПО МОСКВЕ И ОБЛАСТИ</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <a class="logo" href="#top" aria-label="COLDBOX — наверх">
+        <span class="logo-mark" aria-hidden="true"></span>
+        <span>COLD<span class="logo-slash">/</span><span class="logo-accent">BOX</span></span>
+      </a>
+      <nav class="desktop-nav" aria-label="Навигация в подвале">
+        <a href="#services">УСЛУГИ</a><a href="#process">ПРОЦЕСС</a><a href="#works">РАБОТЫ</a><a href="#contacts">КОНТАКТЫ</a>
+      </nav>
+      <p class="copyright">© 2025 COLDBOX</p>
+    </div>
+  </footer>
+
+  <dialog class="request-dialog" id="request-dialog" aria-labelledby="request-title">
+    <div class="dialog-corner dialog-corner--top" aria-hidden="true"></div>
+    <button class="dialog-close" type="button" data-dialog-close aria-label="Закрыть форму заявки"><span>ESC</span> ×</button>
+    <p class="kicker">{ ЗАЯВКА }&nbsp; — &nbsp;ОБРАТНЫЙ ЗВОНОК</p>
+    <h2 id="request-title">ОСТАВИТЬ ЗАЯВКУ</h2>
+    <p class="dialog-description">Оставьте телефон — перезвоним в течение 30 минут, ответим на вопросы и договоримся о замере.</p>
+    <form id="request-form" novalidate>
+      <div class="form-field">
+        <label for="request-name">ИМЯ</label>
+        <input id="request-name" name="name" type="text" autocomplete="name" placeholder="Никита" required minlength="2">
+        <span class="field-error" id="name-error"></span>
+      </div>
+      <div class="form-field">
+        <label for="request-phone">ТЕЛЕФОН</label>
+        <input id="request-phone" name="phone" type="tel" autocomplete="tel" inputmode="tel" placeholder="+7 (___) ___-__-__" required aria-describedby="phone-error">
+        <span class="field-error" id="phone-error"></span>
+      </div>
+      <div class="form-field">
+        <label for="request-comment">КОММЕНТАРИЙ</label>
+        <input id="request-comment" name="comment" type="text" placeholder="Например: спальня, до 20 м²">
+      </div>
+      <div class="form-actions">
+        <button class="button button--accent submit-button" type="submit">ОТПРАВИТЬ</button>
+        <p>Нажимая кнопку, вы соглашаетесь с обработкой персональных данных</p>
+      </div>
+      <p class="form-status" role="status" aria-live="polite"></p>
+    </form>
+    <div class="dialog-corner dialog-corner--bottom" aria-hidden="true"></div>
+  </dialog>
+
+  <dialog class="lightbox" id="lightbox" aria-labelledby="lightbox-caption">
+    <button class="dialog-close lightbox-close" type="button" data-lightbox-close aria-label="Закрыть галерею"><span>ESC</span> ×</button>
+    <div class="lightbox-stage">
+      <img id="lightbox-image" src="./assets/work_1.jpg" alt="">
+      <p class="image-label" id="lightbox-caption">ЖК «СЕВЕРНЫЙ» — 42 УСТАНОВКИ</p>
+    </div>
+    <div class="lightbox-controls">
+      <button class="arrow-button" type="button" data-lightbox-prev aria-label="Предыдущая фотография">←</button>
+      <span class="mono" id="lightbox-count">01 / 04</span>
+      <button class="arrow-button" type="button" data-lightbox-next aria-label="Следующая фотография">→</button>
+    </div>
+  </dialog>
+
+  <script type="module" src="./src/main.js"></script>
+</body>
+</html>
