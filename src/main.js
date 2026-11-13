@@ -1,4 +1,5 @@
 const body = document.body;
+const siteHeader = document.querySelector('.site-header');
 const menu = document.querySelector('#mobile-menu');
 const menuToggle = document.querySelector('.menu-toggle');
 const requestDialog = document.querySelector('#request-dialog');
@@ -10,6 +11,12 @@ const formStatus = document.querySelector('.form-status');
 const submitButton = document.querySelector('.submit-button');
 const lightbox = document.querySelector('#lightbox');
 let activeGalleryIndex = 0;
+
+function syncHeaderState() {
+  siteHeader.classList.toggle('is-scrolled', window.scrollY > 8);
+}
+syncHeaderState();
+window.addEventListener('scroll', syncHeaderState, { passive: true });
 
 function syncBodyLock() {
   const hasOpenLayer = !menu.hidden || requestDialog.open || lightbox.open;
